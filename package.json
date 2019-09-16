@@ -19,7 +19,7 @@
         "type": "git",
         "url": "https://github.com/NicePixel/ZScript-vscode.git"
     },
-    "icon": "./images/icon.png",
+    "icon": "images/icon.png",
     "main": "./out/extension.js",
     "scripts": {
         "vscode:prepublish": "npm run compile",
