@@ -11,4 +11,4 @@ ZScript language extension for vscode.
 
 ## Images
 ![Sceenshot1][logo]
-[logo]: https://github.com/NicePixel/ZScript-vscode/images/scr0.png
+[logo]: raw.githubusercontent.com/NicePixel/ZScript-vscode/master/images/scr0.png
