@@ -10,5 +10,7 @@ ZScript language extension for vscode.
 
 
 ## Images
-![Sceenshot1][logo]
-[logo]: raw.githubusercontent.com/NicePixel/ZScript-vscode/master/images/scr0.png
+
+![Sceenshot1][scr0]
+
+[scr0]: images/scr0.png "Sceenshot"
