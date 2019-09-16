@@ -1,0 +1,70 @@
+{
+    "name": "zscript",
+    "displayName": "zscript",
+    "description": "ZScript language support for vscode.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "activationEvents": [
+        "*"
+    ],
+    "publisher": "mekadrage",
+    "author": {
+        "email": "alek.sandar0@yandex.com",
+        "name": "Aleksandar Urošević",
+        "url": "https://mekadrage.com"
+    },
+    "repository":
+    {
+        "type":"git",
+        "url": "https://github.com/NicePixel/ZScript-vscode.git"
+    },
+    "icon": "./icon.png",
+	"main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "tslint -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "zscript",
+                "path": "snippets/zscript.json"
+            }
+        ],
+        "languages": [
+            {
+                "id": "zscript",
+                "aliases": [
+                    "ZScript",
+                    "zscript"
+                ],
+                "extensions": [
+                    ".zs",
+                    ".zscript"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "zscript",
+                "scopeName": "source.zs",
+                "path": "./syntaxes/zscript.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.18",
+        "tslint": "^5.16.0",
+        "typescript": "^3.5.1",
+        "@types/vscode": "^1.32.0"
+    }
+}
