@@ -13,4 +13,4 @@ ZScript language extension for vscode.
 
 ![Sceenshot1][scr0]
 
-[scr0]: https://raw.githubusercontent.com/NicePixel/ZScript-vscode/master/images/scr0.png "Sceenshot"
+[scr0]: https://raw.githubusercontent.com/drage0/ZScript-vscode/master/images/scr0.png "Sceenshot"
